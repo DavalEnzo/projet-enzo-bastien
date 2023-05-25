@@ -4,7 +4,6 @@ import Col from 'react-bootstrap/Col'
 import { Link } from 'react-router-dom'
 
 export default function RocketCard({ data }) {
-    console.log('ici', data)
     return (
         <Container className='border border-primary  rounded p-0'>
             <Row>
@@ -56,7 +55,7 @@ export default function RocketCard({ data }) {
                 </Col>
             </Row>
             <Row className='border w-100 ms-0 h-100'>
-                <Link to={data.id} className='w-100 text-center' on>
+                <Link to={data.id} className='w-100 text-center'>
                     <h3>Voir plus..</h3>
                 </Link>
             </Row>

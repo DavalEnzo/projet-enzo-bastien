@@ -10,18 +10,19 @@ export default function Rocket() {
     const [data, setData] = useState([])
     const [loading, setLoading] = useState(true)
     useEffect(() => {
-        fetchData()
-    }, [])
-    const fetchData = async () => {
-        try {
-            const response = await axios.get('https://api.spacexdata.com/v4/rockets/' + id)
-            setData(response.data)
-            setLoading(false)
-            console.log('DATA', response.data)
-        } catch (error) {
-            console.error(error)
+        const fetchData = async () => {
+            try {
+                const response = await axios.get('https://api.spacexdata.com/v4/rockets/' + id)
+                setData(response.data)
+                setLoading(false)
+            } catch (error) {
+                console.error(error)
+            }
         }
-    }
+
+        fetchData()
+    }, [id])
+
     if (loading) {
         return <Loader></Loader>
     } else {
