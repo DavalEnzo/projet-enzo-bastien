@@ -14,12 +14,13 @@ export default function CrewCard() {
     }, [value])
 
     const getData = () => {
-        axios.get('https://api.spacexdata.com/v4/crew')
-            .then(res => {
+        axios
+            .get('https://api.spacexdata.com/v4/crew')
+            .then((res) => {
                 setCrew(res.data)
                 setLoading(false)
             })
-            .catch(err => {
+            .catch((err) => {
                 console.log(err)
                 if(err.response.status === 404) {
                     return <p className='text-center'>Aucun membre d'équipage trouvé</p>

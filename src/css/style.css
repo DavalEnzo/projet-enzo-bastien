@@ -15,7 +15,7 @@ body {
 }
 
 .card {
-    width: 50%
+    width: 50%;
 }
 
 .search {
@@ -63,4 +63,3 @@ body {
         width: 90%;
     }
 }
-
