@@ -32,7 +32,7 @@ export default function CrewDetails({id}) {
                 <div className='text-center my-3'>
                     <h1>Page de membre de {member.name}</h1>
                     <div className='card mt-3 mx-auto'>
-                        <div className='card-content'>
+                        <div>
                             <img className={'crewImage'} src={member.image} alt={member.name} />
                             <h2>Agence : {member.agency}</h2>
                             <h3>Status : {member.status}</h3>
