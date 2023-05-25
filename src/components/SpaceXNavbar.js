@@ -4,7 +4,7 @@ import Navbar from 'react-bootstrap/Navbar';
 export default function SpaceXNavbar() {
     return (
         <Navbar style={{marginLeft: "2%"}} bg="light" expand="lg">
-            <Navbar.Brand href="#home">React-Bootstrap</Navbar.Brand>
+            <Navbar.Brand href="/">React-Bootstrap</Navbar.Brand>
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
             <Navbar.Collapse id="basic-navbar-nav">
                 <Nav className="me-auto">
