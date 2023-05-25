@@ -10,6 +10,10 @@ h1 {
     object-fit: cover;
 }
 
+body {
+    overflow-x: hidden;
+}
+
 .card {
     width: 50%
 }
@@ -17,6 +21,34 @@ h1 {
 .search {
     width: 50%;
 }
+
+.background {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("https://ichef.bbci.co.uk/news/976/cpsprodpb/7727/production/_103330503_musk3.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+.rocket {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    width: 150px;
+    rotate: 90deg;
+    animation: rocketAnimation 5s 1 linear forwards;
+}
+
+
+@keyframes rocketAnimation {
+    0% {
+        transform: translateY(100%);
+    }
+    100% {
+        transform: translateY(calc((-100vw - 190px)));
+    }
+}
+
 
 @media (max-width: 1200px) {
     .crewImage {
