@@ -6,9 +6,11 @@ import Row from 'react-bootstrap/esm/Row'
 import Col from 'react-bootstrap/esm/Col'
 import { Link } from 'react-router-dom'
 import Alert from 'react-bootstrap/Alert'
+import Loader from '../components/loader'
 
 export default function InfoList() {
     const [data, setData] = useState([])
+    const [loading, setLoading] = useState(true)
     useEffect(() => {
         fetchData()
     }, [])
@@ -16,11 +18,14 @@ export default function InfoList() {
         try {
             const response = await axios.get('https://api.spacexdata.com/v4/company')
             setData(response.data)
-            console.log(response.data)
+            setLoading(false)
         } catch (error) {
             console.error(error)
         }
     }
+
+    if (loading) return <Loader></Loader>
+
     if (data) {
         return (
             <>

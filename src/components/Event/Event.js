@@ -4,7 +4,6 @@ import Col from 'react-bootstrap/Col'
 import { Link } from 'react-router-dom'
 
 export default function Event({ data }) {
-    console.log('ici', data)
     return (
         <Container className='card w-100'>
             <Row>

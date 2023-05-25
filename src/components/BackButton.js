@@ -2,7 +2,7 @@ import { Link } from 'react-router-dom'
 
 export default function BackButton({ backPath, backText }) {
     return (
-        <Link className='text-decoration-none btn btn-primary my-3' to={`/${backPath}`}>
+        <Link className='text-decoration-none btn btn-primary my-3 mx-3' to={`/${backPath}`}>
             <svg
                 xmlns='http://www.w3.org/2000/svg'
                 width='30'
