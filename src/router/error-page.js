@@ -1,7 +1,7 @@
-import { Link, useLocation } from "react-router-dom";
+import { Link, useLocation as UseLocation } from "react-router-dom";
 
 const removeSlash = () => {
-    const path = useLocation().pathname;
+    const path = UseLocation().pathname;
     return path.replace("/", "");
 }
 
