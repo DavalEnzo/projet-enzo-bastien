@@ -13,12 +13,13 @@ export default function CrewCard() {
     }, [])
 
     const getData = () => {
-        axios.get('https://api.spacexdata.com/v4/crew')
-            .then(res => {
+        axios
+            .get('https://api.spacexdata.com/v4/crew')
+            .then((res) => {
                 setCrew(res.data)
                 setLoading(false)
             })
-            .catch(err => {
+            .catch((err) => {
                 console.log(err)
             })
     }
@@ -32,12 +33,18 @@ export default function CrewCard() {
                     <div className='text-center'>
                         <h1>Equipage</h1>
                         <p className='fs-2'>Voici la liste des membres d'équipage de Dragon</p>
-                        <h5 className='text-muted'>Cliquez sur la photo d'un membre pour accéder à ses détails</h5>
+                        <h5 className='text-muted'>
+                            Cliquez sur la photo d'un membre pour accéder à ses détails
+                        </h5>
                         <div className='card mt-3 mx-auto' key={member.id}>
                             <Link className='text-decoration-none' to={`${member.id}`}>
                                 <div className='card-content'>
                                     <h1>{member.name}</h1>
-                                    <img className={'crewImage'} src={member.image} alt={member.name} />
+                                    <img
+                                        className={'crewImage'}
+                                        src={member.image}
+                                        alt={member.name}
+                                    />
                                 </div>
                             </Link>
                         </div>
@@ -47,9 +54,5 @@ export default function CrewCard() {
         )
     })
 
-    return (
-        <>
-            {crewList}
-        </>
-    )
+    return <>{crewList}</>
 }

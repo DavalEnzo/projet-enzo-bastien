@@ -4,11 +4,21 @@ import { useParams } from 'react-router-dom'
 import CrewDetails from '../components/CrewDetails'
 
 export default function Crew() {
-    const {id} = useParams()
+    const { id } = useParams()
 
-    if(!id) {
-        return (<><SpaceXNavbar /><CrewCard /></>)
+    if (!id) {
+        return (
+            <>
+                <SpaceXNavbar />
+                <CrewCard />
+            </>
+        )
     } else {
-        return (<><SpaceXNavbar /><CrewDetails id={id}/></>)
+        return (
+            <>
+                <SpaceXNavbar />
+                <CrewDetails id={id} />
+            </>
+        )
     }
 }
