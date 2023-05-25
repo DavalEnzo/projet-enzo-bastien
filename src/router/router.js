@@ -1,5 +1,5 @@
 import {BrowserRouter, Route, Routes} from "react-router-dom";
-import ErrorPage from "../router/error-page";;
+import ErrorPage from "../router/error-page";
 
 const Routeur = () => {
     return (
