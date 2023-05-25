@@ -11,7 +11,7 @@ h1 {
 }
 
 .card {
-    width: 50%
+    width: 50%;
 }
 
 .search {
@@ -31,4 +31,3 @@ h1 {
         width: 90%;
     }
 }
-

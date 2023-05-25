@@ -1,5 +1,5 @@
-import Nav from 'react-bootstrap/Nav';
-import Navbar from 'react-bootstrap/Navbar';
+import Nav from 'react-bootstrap/Nav'
+import Navbar from 'react-bootstrap/Navbar'
 
 export default function SpaceXNavbar() {
     return (
@@ -16,5 +16,5 @@ export default function SpaceXNavbar() {
                 </Nav>
             </Navbar.Collapse>
         </Navbar>
-    );
+    )
 }

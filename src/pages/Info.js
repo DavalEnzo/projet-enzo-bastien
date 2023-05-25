@@ -1,7 +1,7 @@
-export default function Info(){
-    return(
+export default function Info() {
+    return (
         <>
-        <h1>About SpaceX 2</h1>
+            <h1>About SpaceX 2</h1>
         </>
     )
 }
