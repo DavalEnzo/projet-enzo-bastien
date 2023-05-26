@@ -71,4 +71,10 @@ body {
         position: relative;
         width: 90%;
     }
+    .quizzCard {
+        flex-direction: column;
+    }
+    .quizzContent {
+        height: 100%;
+    }
 }

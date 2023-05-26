@@ -13,6 +13,7 @@ export default function SpaceXNavbar() {
                     <Nav.Link href="/historique">Historique</Nav.Link>
                     <Nav.Link href="/about">A propose de SpaceX</Nav.Link>
                     <Nav.Link href="/rockets">Fusées</Nav.Link>
+                    <Nav.Link href="/quizz">Quizz</Nav.Link>
                 </Nav>
             </Navbar.Collapse>
         </Navbar>

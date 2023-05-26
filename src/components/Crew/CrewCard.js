@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react'
 import axios from 'axios'
 import { Link } from 'react-router-dom'
-import Loader from './loader'
+import Loader from '../loader'
 import { Container } from 'react-bootstrap'
 
 export default function CrewCard() {
