@@ -5,13 +5,13 @@ import { Link } from 'react-router-dom'
 
 export default function RocketCard({ data }) {
     return (
-        <Container className='border border-primary  rounded p-0'>
+        <Container className='card  p-0 w-100 overflow-hidden'>
             <Row>
-                <Col className='d-flex' xs={12} xl={6}>
+                <Col className='d-flex p-0' xs={12} xl={6}>
                     <img src={data.flickr_images[0]} alt={data.name} className='w-100 h-100' />
                 </Col>
                 <Col xs={12} xl={6} className='pe-0 ps-0 text-center'>
-                    <Row className='border rounded w-100'>
+                    <Row className='border rounded w-100 m-0 rocket_title'>
                         <h3>{data.name}</h3>
                     </Row>
                     <Row className='w-100 pe-8'>
@@ -19,11 +19,11 @@ export default function RocketCard({ data }) {
                             <b>Pays:</b> {data.country}
                         </p>
                     </Row>
-                    <Row className='w-100 pe-8'>
+                    <Row className='w-100 px-2 m-0'>
                         <h5>Description</h5>
                         <p> {data.description}</p>
                     </Row>
-                    <Row className='w-100 pe-8'>
+                    <Row className='w-100 px-4'>
                         <Col>
                             <p>
                                 <b>hauteur:</b> {data.height.meters}m
@@ -40,7 +40,7 @@ export default function RocketCard({ data }) {
                             </p>
                         </Col>
                     </Row>
-                    <Row className='w-100 pe-8'>
+                    <Row className='w-100 px-4'>
                         <Col>
                             <p>
                                 <b>Prix du lancement:</b> {data.cost_per_launch}$
@@ -54,9 +54,9 @@ export default function RocketCard({ data }) {
                     </Row>
                 </Col>
             </Row>
-            <Row className='border w-100 ms-0 h-100'>
-                <Link to={data.id} className='w-100 text-center'>
-                    <h3>Voir plus..</h3>
+            <Row className='border w-100 ms-0 h-100 rocket_title '>
+                <Link to={data.id} className='w-100 text-center text-decoration-none'>
+                    <h3>Voir plus</h3>
                 </Link>
             </Row>
         </Container>

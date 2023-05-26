@@ -32,7 +32,7 @@ export default function InfoList() {
                 <SpaceXNavbar></SpaceXNavbar>
                 <Container className='text-center'>
                     <Row>
-                        <Container className='border border-primary  rounded'>
+                        <Container className='card w-100'>
                             <Row>
                                 <h1>About {data.name}</h1>
                             </Row>
@@ -81,7 +81,7 @@ export default function InfoList() {
                     </Row>
                     <br />
                     <Row>
-                        <Container className='border border-primary  rounded'>
+                        <Container className='card w-100'>
                             <Row>
                                 <h2>Directions</h2>
                             </Row>
@@ -102,7 +102,7 @@ export default function InfoList() {
                     </Row>
                     <br />
                     <Row>
-                        <Container className='border border-primary  rounded'>
+                        <Container className='card w-100'>
                             <Row>
                                 <h2>Siège Social</h2>
                             </Row>
@@ -119,7 +119,7 @@ export default function InfoList() {
                     </Row>
                     <br />
                     <Row>
-                        <Container className='border border-primary  rounded'>
+                        <Container className='card w-100'>
                             <Row>
                                 <h2>Liens</h2>
                             </Row>
