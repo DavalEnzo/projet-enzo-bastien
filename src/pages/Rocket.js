@@ -10,8 +10,6 @@ export default function Rocket() {
     const [data, setData] = useState([])
     const [loading, setLoading] = useState(true)
     useEffect(() => {
-        fetchData()
-    },[])
     const fetchData = async () => {
         try {
             const response = await axios.get('https://api.spacexdata.com/v4/rockets/' + id)
@@ -22,6 +20,9 @@ export default function Rocket() {
             console.error(error)
         }
     }
+        fetchData()
+    },[id])
+
     if (loading) {
         return <Loader></Loader>
     } else {
@@ -44,7 +45,7 @@ export default function Rocket() {
                         </Col>
                         <Col xs={12} xl={6} xxl={6} className='p-0'>
                             <Container className='card w-100 p-0 h-100'>
-                            <Row className='w-100 mx-auto row border rounded w-100 row'>
+                            <Row className='w-100 mx-auto row border rounded w-100 row rocket_title'>
                                 <h3>Informations</h3>
                             </Row>
                             <Row className='w-100 m-auto'>
@@ -117,7 +118,7 @@ export default function Rocket() {
                     <br/>
                     <Row>
                         <Container className='card w-100 p-0 pb-3'>
-                            <Row className='w-100 mx-auto row border rounded w-100 row mb-2'>
+                            <Row className='w-100 mx-auto row border rounded w-100 row mb-2 rocket_title'>
                                 <h4>Payloads</h4>
                             </Row>
                             {data.payload_weights.map((payload,i) => {
@@ -142,7 +143,7 @@ export default function Rocket() {
                     <br/>
                     <Row>
                         <Container className='card w-100 px-0'>
-                            <Row className='w-100 mx-auto row border rounded w-100 row mb-2'>
+                            <Row className='w-100 mx-auto row border rounded w-100 row mb-2 rocket_title'>
                                 <h4>Moteurs</h4>
                             </Row>
                             <Row>
