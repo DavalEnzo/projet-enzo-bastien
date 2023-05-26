@@ -50,6 +50,12 @@ body {
 }
 
 
+.rocket_title{
+    background-color:ghostwhite;
+}
+.nav-logo{
+    width:10%;
+}
 @media (max-width: 1200px) {
     .crewImage {
         max-width: 70%;
@@ -57,6 +63,9 @@ body {
     }
     .card {
         width: auto;
+    }
+    .nav-logo{
+        width:20%;
     }
     .search {
         position: relative;

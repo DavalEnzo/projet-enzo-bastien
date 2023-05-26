@@ -11,7 +11,7 @@ export default function RocketCard({ data }) {
                     <img src={data.flickr_images[0]} alt={data.name} className='w-100 h-100' />
                 </Col>
                 <Col xs={12} xl={6} className='pe-0 ps-0 text-center'>
-                    <Row className='border rounded w-100 m-0'>
+                    <Row className='border rounded w-100 m-0 rocket_title'>
                         <h3>{data.name}</h3>
                     </Row>
                     <Row className='w-100 pe-8'>
@@ -54,9 +54,9 @@ export default function RocketCard({ data }) {
                     </Row>
                 </Col>
             </Row>
-            <Row className='border w-100 ms-0 h-100'>
-                <Link to={data.id} className='w-100 text-center'>
-                    <h3>Voir plus..</h3>
+            <Row className='border w-100 ms-0 h-100 rocket_title '>
+                <Link to={data.id} className='w-100 text-center text-decoration-none'>
+                    <h3>Voir plus</h3>
                 </Link>
             </Row>
         </Container>
