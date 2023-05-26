@@ -1,0 +1,462 @@
+{
+  "quiz1": {
+    "title": "Quiz SpaceX n°1",
+    "questions": [
+      {
+        "id": 1,
+        "question": "Qui est le fondateur de SpaceX ?",
+        "options": [
+          "Elon Musk",
+          "Jeff Bezos",
+          "Mark Zuckerberg",
+          "Bill Gates"
+        ],
+        "answer": "Elon Musk"
+      },
+      {
+        "id": 2,
+        "question": "Quel est le premier vaisseau spatial réutilisable développé par SpaceX ?",
+        "options": [
+          "Falcon 9",
+          "Dragon",
+          "Starship",
+          "Falcon Heavy"
+        ],
+        "answer": "Dragon"
+      },
+      {
+        "id": 3,
+        "question": "En quelle année SpaceX a-t-il réussi à atterrir pour la première fois un premier étage de Falcon 9 sur une barge en mer ?",
+        "options": [
+          "2014",
+          "2015",
+          "2016",
+          "2017"
+        ],
+        "answer": "2016"
+      },
+      {
+        "id": 4,
+        "question": "Quelle est la destination visée par le projet Starship de SpaceX ?",
+        "options": [
+          "La Lune",
+          "Mars",
+          "Vénus",
+          "Jupiter"
+        ],
+        "answer": "Mars"
+      },
+      {
+        "id": 5,
+        "question": "Quel est le nom du premier touriste spatial à avoir réservé un vol autour de la Lune avec SpaceX ?",
+        "options": [
+          "Yusaku Maezawa",
+          "Richard Branson",
+          "Jeff Bezos",
+          "Timothy Creamer"
+        ],
+        "answer": "Yusaku Maezawa"
+      },
+      {
+        "id": 6,
+        "question": "Quelle est la puissance du moteur principal du vaisseau spatial Starship de SpaceX ?",
+        "options": [
+          "Raptor",
+          "Merlin",
+          "SuperDraco",
+          "Kestrel"
+        ],
+        "answer": "Raptor"
+      },
+      {
+        "id": 7,
+        "question": "Quelle est la hauteur actuelle du prototype de Starship appelé SN15 ?",
+        "options": [
+          "50 mètres",
+          "75 mètres",
+          "100 mètres",
+          "120 mètres"
+        ],
+        "answer": "50 mètres"
+      },
+      {
+        "id": 8,
+        "question": "Quelle est la première mission habitée de SpaceX avec l'équipage de la NASA ?",
+        "options": [
+          "Crew-1",
+          "Demo-2",
+          "Crew-2",
+          "Inspiration4"
+        ],
+        "answer": "Crew-2"
+      },
+      {
+        "id": 9,
+        "question": "Quel est le nom du vaisseau spatial développé par SpaceX pour le transport de cargaisons vers la Station spatiale internationale (ISS) ?",
+        "options": [
+          "Dragon",
+          "Falcon 9",
+          "Starship",
+          "Falcon Heavy"
+        ],
+        "answer": "Dragon"
+      },
+      {
+        "id": 10,
+        "question": "Quelle est la date prévue pour le premier vol orbital de Starship ?",
+        "options": [
+          "2022",
+          "2023",
+          "2024",
+          "2025"
+        ],
+        "answer": "2023"
+      }
+    ]
+  },
+  "quiz2": {
+    "title": "Quiz France - Niveau Intermédiaire",
+    "questions": [
+      {
+        "id": 1,
+        "question": "Quel est le fleuve le plus long de France ?",
+        "options": [
+          "Seine",
+          "Loire",
+          "Rhin",
+          "Garonne"
+        ],
+        "answer": "Loire"
+      },
+      {
+        "id": 2,
+        "question": "Quelle est la plus haute montagne de France ?",
+        "options": [
+          "Mont Blanc",
+          "Vosges",
+          "Pyramide du Tacul",
+          "Mont Ventoux"
+        ],
+        "answer": "Mont Blanc"
+      },
+      {
+        "id": 3,
+        "question": "Quelle est la capitale de la France ?",
+        "options": [
+          "Paris",
+          "Lyon",
+          "Marseille",
+          "Bordeaux"
+        ],
+        "answer": "Paris"
+      },
+      {
+        "id": 4,
+        "question": "Quelle est la région française réputée pour ses châteaux de la Renaissance ?",
+        "options": [
+          "Bretagne",
+          "Alsace",
+          "Provence-Alpes-Côte d'Azur",
+          "Centre-Val de Loire"
+        ],
+        "answer": "Centre-Val de Loire"
+      },
+      {
+        "id": 5,
+        "question": "Quel est le symbole culinaire emblématique de la cuisine française ?",
+        "options": [
+          "Pain au chocolat",
+          "Croissant",
+          "Escargots",
+          "Fromage"
+        ],
+        "answer": "Fromage"
+      },
+      {
+        "id": 6,
+        "question": "Quel événement sportif est associé au Tour de France ?",
+        "options": [
+          "Course de voitures",
+          "Course à pied",
+          "Course cycliste",
+          "Course de chevaux"
+        ],
+        "answer": "Course cycliste"
+      },
+      {
+        "id": 7,
+        "question": "Quel est le célèbre musée situé à Paris ?",
+        "options": [
+          "Musée du Louvre",
+          "Musée d'Orsay",
+          "Musée Picasso",
+          "Musée Rodin"
+        ],
+        "answer": "Musée du Louvre"
+      },
+      {
+        "id": 8,
+        "question": "Quel est le vin rouge le plus connu de Bordeaux ?",
+        "options": [
+          "Château Margaux",
+          "Château Latour",
+          "Château Lafite-Rothschild",
+          "Château Mouton-Rothschild"
+        ],
+        "answer": "Château Margaux"
+      },
+      {
+        "id": 9,
+        "question": "Quelle est la deuxième plus grande ville de France ?",
+        "options": [
+          "Lyon",
+          "Marseille",
+          "Toulouse",
+          "Nice"
+        ],
+        "answer": "Marseille"
+      },
+      {
+        "id": 10,
+        "question": "Quelle est la spécialité culinaire de la ville de Lyon ?",
+        "options": [
+          "Quenelles",
+          "Tarte Tatin",
+          "Ratatouille",
+          "Cassoulet"
+        ],
+        "answer": "Quenelles"
+      }
+    ]
+  },
+  "quiz3": {
+    "title": "Quiz Espace - Niveau Avancé",
+    "questions": [
+      {
+        "id": 1,
+        "question": "Quelle est la plus grande planète du système solaire ?",
+        "options": [
+          "Mars",
+          "Jupiter",
+          "Vénus",
+          "Saturne"
+        ],
+        "answer": "Jupiter"
+      },
+      {
+        "id": 2,
+        "question": "Quel est le nom de la première femme astronaute à avoir voyagé dans l'espace ?",
+        "options": [
+          "Sally Ride",
+          "Valentina Tereshkova",
+          "Mae Jemison",
+          "Yuri Gagarin"
+        ],
+        "answer": "Valentina Tereshkova"
+      },
+      {
+        "id": 3,
+        "question": "Quelle est la distance moyenne entre la Terre et le Soleil ?",
+        "options": [
+          "100 millions de kilomètres",
+          "150 millions de kilomètres",
+          "200 millions de kilomètres",
+          "250 millions de kilomètres"
+        ],
+        "answer": "150 millions de kilomètres"
+      },
+      {
+        "id": 4,
+        "question": "Quel est le nom de la mission de la NASA qui a permis de poser les premiers humains sur la Lune en 1969 ?",
+        "options": [
+          "Apollo 11",
+          "Vostok 1",
+          "Gemini 4",
+          "Mercury 3"
+        ],
+        "answer": "Apollo 11"
+      },
+      {
+        "id": 5,
+        "question": "Quelle est la plus grande étoile connue dans l'univers ?",
+        "options": [
+          "Le Soleil",
+          "Véga",
+          "Rigel",
+          "VY Canis Majoris"
+        ],
+        "answer": "VY Canis Majoris"
+      },
+      {
+        "id": 6,
+        "question": "Quelle est la première sonde à avoir atteint la ceinture d'astéroïdes entre Mars et Jupiter ?",
+        "options": [
+          "Voyager 1",
+          "Cassini-Huygens",
+          "New Horizons",
+          "Dawn"
+        ],
+        "answer": "Dawn"
+      },
+      {
+        "id": 7,
+        "question": "Quelle est la durée approximative d'une année sur Mars ?",
+        "options": [
+          "365 jours",
+          "687 jours",
+          "730 jours",
+          "876 jours"
+        ],
+        "answer": "687 jours"
+      },
+      {
+        "id": 8,
+        "question": "Quel est le nom de la première femme à avoir effectué une sortie dans l'espace ?",
+        "options": [
+          "Peggy Whitson",
+          "Svetlana Savitskaya",
+          "Christina Koch",
+          "Kathryn Sullivan"
+        ],
+        "answer": "Svetlana Savitskaya"
+      },
+      {
+        "id": 9,
+        "question": "Quel est le nom du télescope spatial lancé par la NASA en 1990 ?",
+        "options": [
+          "Hubble",
+          "Kepler",
+          "Spitzer",
+          "Chandra"
+        ],
+        "answer": "Hubble"
+      },
+      {
+        "id": 10,
+        "question": "Quelle est la vitesse de la lumière dans le vide ?",
+        "options": [
+          "300 000 km/s",
+          "500 000 km/s",
+          "700 000 km/s",
+          "1 000 000 km/s"
+        ],
+        "answer": "300 000 km/s"
+      }
+    ]
+  },
+  "quiz4": {
+    "title": "Quiz Mars - Niveau Avancé",
+    "questions": [
+      {
+        "id": 1,
+        "question": "Quelle est la période de révolution de Mars autour du Soleil ?",
+        "options": [
+          "365 jours",
+          "687 jours",
+          "224 jours",
+          "520 jours"
+        ],
+        "answer": "687 jours"
+      },
+      {
+        "id": 2,
+        "question": "Quelle est la température moyenne à la surface de Mars ?",
+        "options": [
+          "-63 °C",
+          "-23 °C",
+          "-10 °C",
+          "-2 °C"
+        ],
+        "answer": "-63 °C"
+      },
+      {
+        "id": 3,
+        "question": "Quel est le plus grand volcan de Mars ?",
+        "options": [
+          "Elysium Mons",
+          "Olympus Mons",
+          "Tharsis Tholus",
+          "Arsia Mons"
+        ],
+        "answer": "Olympus Mons"
+      },
+      {
+        "id": 4,
+        "question": "Quelle est la principale raison pour laquelle la couleur de Mars est rouge ?",
+        "options": [
+          "Présence d'oxyde de fer",
+          "Présence d'eau liquide",
+          "Présence de végétation",
+          "Présence de cuivre"
+        ],
+        "answer": "Présence d'oxyde de fer"
+      },
+      {
+        "id": 5,
+        "question": "Quelle est la plus grande tempête de poussière jamais observée sur Mars ?",
+        "options": [
+          "Tempête de poussière de 1971",
+          "Tempête de poussière de 2001",
+          "Tempête de poussière de 2018",
+          "Tempête de poussière de 2020"
+        ],
+        "answer": "Tempête de poussière de 2018"
+      },
+      {
+        "id": 6,
+        "question": "Quelle est la durée d'un jour sur Mars ?",
+        "options": [
+          "24 heures",
+          "25 heures",
+          "26 heures",
+          "27 heures"
+        ],
+        "answer": "24 heures"
+      },
+      {
+        "id": 7,
+        "question": "Quel est le nom du rover de la NASA qui a atterri sur Mars en février 2021 ?",
+        "options": [
+          "Opportunity",
+          "Curiosity",
+          "Perseverance",
+          "Spirit"
+        ],
+        "answer": "Perseverance"
+      },
+      {
+        "id": 8,
+        "question": "Quelle est la plus grande vallée sur Mars ?",
+        "options": [
+          "Vallée de la Mort",
+          "Valles Marineris",
+          "Vallée de l'Olympus",
+          "Vallée de l'Éridan"
+        ],
+        "answer": "Valles Marineris"
+      },
+      {
+        "id": 9,
+        "question": "Quelle est l'atmosphère de Mars principalement composée ?",
+        "options": [
+          "Azote",
+          "Oxygène",
+          "Dioxyde de carbone",
+          "Méthane"
+        ],
+        "answer": "Dioxyde de carbone"
+      },
+      {
+        "id": 10,
+        "question": "Quelle est la plus haute montagne de Mars ?",
+        "options": [
+          "Mont Everest",
+          "Olympus Mons",
+          "K2",
+          "Mont Blanc"
+        ],
+        "answer": "Olympus Mons"
+      }
+    ]
+  }
+}
