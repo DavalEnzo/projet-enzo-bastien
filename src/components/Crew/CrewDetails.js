@@ -1,8 +1,8 @@
 import { useEffect, useState } from 'react'
 import axios from 'axios'
-import Loader from './loader'
+import Loader from '../loader'
 import { Container } from 'react-bootstrap'
-import BackButton from './BackButton'
+import BackButton from '../BackButton'
 
 export default function CrewDetails({ id }) {
     const [member, setMember] = useState([])
@@ -18,6 +18,11 @@ export default function CrewDetails({ id }) {
                 })
                 .catch((err) => {
                     console.log(err)
+                    if(err.response.status === 404) {
+                        return <p className='text-center'>Membre d'équipage non trouvé</p>
+                    } else {
+                        return <p className='text-center'>Une erreur est survenue</p>
+                    }
                 })
         }
 

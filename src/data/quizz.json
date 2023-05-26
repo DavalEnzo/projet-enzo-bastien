@@ -1,6 +1,8 @@
-{
-  "quiz1": {
-    "title": "Quiz SpaceX n°1",
+[
+  {
+    "id": 1,
+    "title": "Quizz SpaceX n°1",
+    "difficulty": "Facile",
     "questions": [
       {
         "id": 1,
@@ -114,8 +116,10 @@
       }
     ]
   },
-  "quiz2": {
-    "title": "Quiz France - Niveau Intermédiaire",
+  {
+    "id": 2,
+    "difficulty": "Intermédiaire",
+    "title": "Quizz France",
     "questions": [
       {
         "id": 1,
@@ -229,8 +233,10 @@
       }
     ]
   },
-  "quiz3": {
-    "title": "Quiz Espace - Niveau Avancé",
+  {
+    "id": 3,
+    "title": "Quizz Espace",
+    "difficulty": "Avancé",
     "questions": [
       {
         "id": 1,
@@ -344,8 +350,10 @@
       }
     ]
   },
-  "quiz4": {
-    "title": "Quiz Mars - Niveau Avancé",
+  {
+    "id": 4,
+    "title": "Quizz Mars",
+    "difficulty": "Avancé",
     "questions": [
       {
         "id": 1,
@@ -459,4 +467,4 @@
       }
     ]
   }
-}
+]
