@@ -28,7 +28,6 @@ export default function HistoryList() {
 
     return (
         <>
-            <h1>Historique de l'Entreprise</h1>
             <br />
             {data.map((item, i) => {
                 return (

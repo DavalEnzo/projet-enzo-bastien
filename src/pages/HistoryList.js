@@ -1,6 +1,7 @@
 import SpaceXNavbar from '../components/SpaceXNavbar'
+import HistoryList from '../components/History/HistoryList'
 
-export default function HistoryList() {
+export default function History() {
     return (
         <>
             <SpaceXNavbar></SpaceXNavbar>
