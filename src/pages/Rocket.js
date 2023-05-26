@@ -1,9 +1,7 @@
 import { useParams } from 'react-router'
-import SpaceXNavbar from '../components/SpaceXNavbar'
 import React, { useState, useEffect } from 'react'
 import axios from 'axios'
 import { Col, Container, Row } from 'react-bootstrap'
-import BackButton from '../components/BackButton'
 import Loader from '../components/loader'
 export default function Rocket() {
     const { id } = useParams()
@@ -28,11 +26,6 @@ export default function Rocket() {
     } else {
         return (
             <>
-                <SpaceXNavbar></SpaceXNavbar>
-                <BackButton
-                    backPath={'rockets/'}
-                    backText={'Retour a la liste des Fusée'}
-                ></BackButton>
                 <Container className='text-center w-100'>
                     <Row>
                         <Col>
